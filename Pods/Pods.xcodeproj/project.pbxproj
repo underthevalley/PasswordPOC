@@ -1,0 +1,1007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09069B384529272D9C2E829618BF5FEE /* Pods-PasswordPOCUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC7D2C54E3C6B01D03ADF306991D823 /* Pods-PasswordPOCUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25CC8BC3D1285DD60707CDF1B23E424E /* zxcvbn-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A28731B70844D4A8C0D1AB8B39652A1 /* zxcvbn-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3525281E14BB67165FE7774B00BEA3D3 /* Pods-PasswordPOC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2E66AA01A681C322161AB649270EA3 /* Pods-PasswordPOC-dummy.m */; };
+		3789B2817088508AABCF906F062266B5 /* DBPasswordStrengthMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A0E318F22DD8BCE4FC6A47AAC4B56 /* DBPasswordStrengthMeterView.m */; };
+		3EE65ADED2D034352461DA3B2728A1E7 /* Pods-PasswordPOCUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97478A7E00CBE8FADEDCA9E9DAAD0C9F /* Pods-PasswordPOCUITests-dummy.m */; };
+		3F3A3AB1DFF323C7A5CD156F8C9EAE59 /* DBMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A1217702357456EBEF20BFC8A9B7C2 /* DBMatcher.m */; };
+		53C3799E1BD1F67E1EF6B9C7F79D4AC8 /* DBScorer.h in Headers */ = {isa = PBXBuildFile; fileRef = E078DD424B7BD196A53B51203AF23873 /* DBScorer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		540CC522201EBFEB8C3246E642802352 /* DBMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E992D13079808A37E19D6AFBB3F40B9 /* DBMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54C8173A47E124ED5AEE797DEE363A7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		5C1DE06CA91CF87FF450A119711EECED /* DBZxcvbn.h in Headers */ = {isa = PBXBuildFile; fileRef = 121E14070A46090E04FE596300F67506 /* DBZxcvbn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7739C3256738630B469B7038F8593D33 /* Pods-PasswordPOCTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFE7ECC61F485692E25292BF13D5F98 /* Pods-PasswordPOCTests-dummy.m */; };
+		7FC067C72C2407892A7B39D1E91CC769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8FECB688B7A24518579F5DBA826CE5D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A3AE995F76B94F0CF1125872CBE123D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A7EC551EEFF365E24E635FFA8608E01E /* Pods-PasswordPOC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 703D0BFA6F5800352DB1D4B791193173 /* Pods-PasswordPOC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB99E6E61DE87E7141B74FDED8D49321 /* DBScorer.m in Sources */ = {isa = PBXBuildFile; fileRef = D21B03099885589EDEBB180ABC35B317 /* DBScorer.m */; };
+		ABCEC5D88E427F97D4E723AFCB57B993 /* zxcvbn-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 160D3DD178A8AC8898707E1CAAC5F9CC /* zxcvbn-ios-dummy.m */; };
+		C7DB25DA6A1F9C6E64BF5DE42C9D28C5 /* DBZxcvbn.m in Sources */ = {isa = PBXBuildFile; fileRef = BA13C0735F6E68B97E3B654F56560800 /* DBZxcvbn.m */; };
+		D635CF2ADBF95B7CBDBB96CCA0139C67 /* DBPasswordStrengthMeterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C97DC78381433C5602EF1F4AF3D1065 /* DBPasswordStrengthMeterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC71F915D3D578F74BDF2788D03D6BAC /* adjacency_graphs.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D7A1E25BB0D754A8E129F2F072D0A2B /* adjacency_graphs.json */; };
+		ED3D6A66BF5C6B0870582AAC7AF3AAE7 /* Pods-PasswordPOCTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC54476A2D0EF74B03053FF29803CD90 /* Pods-PasswordPOCTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED84B3DCD32F483F7DC8EF3B3E8AD5F8 /* frequency_lists.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B5E05819464FE43D7A04A6FF08521EA /* frequency_lists.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06FAF4568CC6693E010B4427DCACFC7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 246BA36B48D7E79EEFFBC01EC45D63F6;
+			remoteInfo = "zxcvbn-ios";
+		};
+		C3715D21775BD077307192CE3B914AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03EA6EA81CA39C5829DEBBAF32009ABE;
+			remoteInfo = "Pods-PasswordPOC";
+		};
+		CAEAC846562D085DA9B36177E1EF7227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03EA6EA81CA39C5829DEBBAF32009ABE;
+			remoteInfo = "Pods-PasswordPOC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B5942020333C53A7F4A081FAE32FCB /* Pods-PasswordPOC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PasswordPOC.modulemap"; sourceTree = "<group>"; };
+		0E8F8D16125B2202EFE74CC2115CE7E8 /* Pods-PasswordPOCUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PasswordPOCUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E992D13079808A37E19D6AFBB3F40B9 /* DBMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBMatcher.h; path = Zxcvbn/DBMatcher.h; sourceTree = "<group>"; };
+		121E14070A46090E04FE596300F67506 /* DBZxcvbn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBZxcvbn.h; path = Zxcvbn/DBZxcvbn.h; sourceTree = "<group>"; };
+		160D3DD178A8AC8898707E1CAAC5F9CC /* zxcvbn-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "zxcvbn-ios-dummy.m"; sourceTree = "<group>"; };
+		1C106FB1F7A34D6F78148EE240C7B0A6 /* Pods-PasswordPOC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PasswordPOC-frameworks.sh"; sourceTree = "<group>"; };
+		283DC8EEA6E8E0857C758DFBE5876BE4 /* zxcvbn-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "zxcvbn-ios.xcconfig"; sourceTree = "<group>"; };
+		2A28731B70844D4A8C0D1AB8B39652A1 /* zxcvbn-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zxcvbn-ios-umbrella.h"; sourceTree = "<group>"; };
+		2C4ABC81F68880E3AE1E38DBBF0FADAD /* Pods-PasswordPOCUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PasswordPOCUITests.modulemap"; sourceTree = "<group>"; };
+		2D2A0E318F22DD8BCE4FC6A47AAC4B56 /* DBPasswordStrengthMeterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DBPasswordStrengthMeterView.m; path = Zxcvbn/DBPasswordStrengthMeterView.m; sourceTree = "<group>"; };
+		2D7A1E25BB0D754A8E129F2F072D0A2B /* adjacency_graphs.json */ = {isa = PBXFileReference; includeInIndex = 1; name = adjacency_graphs.json; path = Zxcvbn/generated/adjacency_graphs.json; sourceTree = "<group>"; };
+		31A1217702357456EBEF20BFC8A9B7C2 /* DBMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DBMatcher.m; path = Zxcvbn/DBMatcher.m; sourceTree = "<group>"; };
+		3DE72F0E9D1C35620359F90324E41D70 /* zxcvbn-ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "zxcvbn-ios-Info.plist"; sourceTree = "<group>"; };
+		3FC1FEE513D17E29CEFCB920DEF036FE /* Pods-PasswordPOCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasswordPOCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42AED1211DBCEA1FA8E4F5BE499EA75A /* Pods-PasswordPOCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasswordPOCTests.release.xcconfig"; sourceTree = "<group>"; };
+		46FA379BC5753E0D4C227037E6FA8576 /* Pods-PasswordPOCTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasswordPOCTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		51AEE00C516D3E38DA99DE8039B1EEFE /* zxcvbn_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = zxcvbn_ios.framework; path = "zxcvbn-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559A1DE9497DDAA193288996EE61F20F /* Pods-PasswordPOC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasswordPOC-acknowledgements.plist"; sourceTree = "<group>"; };
+		58AA4930B8ACC198C83F9BBCCA5B9FF6 /* zxcvbn-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "zxcvbn-ios.modulemap"; sourceTree = "<group>"; };
+		645EB02055A47F99EAB064557505BBE4 /* Pods-PasswordPOCTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PasswordPOCTests.modulemap"; sourceTree = "<group>"; };
+		703D0BFA6F5800352DB1D4B791193173 /* Pods-PasswordPOC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PasswordPOC-umbrella.h"; sourceTree = "<group>"; };
+		78392BB0D92DCF1CD512B414FE0B1485 /* Pods_PasswordPOCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PasswordPOCTests.framework; path = "Pods-PasswordPOCTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C97DC78381433C5602EF1F4AF3D1065 /* DBPasswordStrengthMeterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBPasswordStrengthMeterView.h; path = Zxcvbn/DBPasswordStrengthMeterView.h; sourceTree = "<group>"; };
+		7E8A0F483228EA0C68FBCEAAFC417ECA /* Pods-PasswordPOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasswordPOCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BA68D36214D6935A470773CB11F0C91 /* Pods-PasswordPOCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasswordPOCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8CC7D2C54E3C6B01D03ADF306991D823 /* Pods-PasswordPOCUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PasswordPOCUITests-umbrella.h"; sourceTree = "<group>"; };
+		97478A7E00CBE8FADEDCA9E9DAAD0C9F /* Pods-PasswordPOCUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PasswordPOCUITests-dummy.m"; sourceTree = "<group>"; };
+		9B5E05819464FE43D7A04A6FF08521EA /* frequency_lists.json */ = {isa = PBXFileReference; includeInIndex = 1; name = frequency_lists.json; path = Zxcvbn/generated/frequency_lists.json; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FBAA77FB9111285E919CCAC5AE1ABE5 /* Pods-PasswordPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasswordPOC.release.xcconfig"; sourceTree = "<group>"; };
+		A0B542CA5FFBDD5B86BCB7760A76ECD5 /* zxcvbn-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zxcvbn-ios-prefix.pch"; sourceTree = "<group>"; };
+		A4566ED01ECF62885219EBA6AC223742 /* Pods-PasswordPOC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PasswordPOC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD2E66AA01A681C322161AB649270EA3 /* Pods-PasswordPOC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PasswordPOC-dummy.m"; sourceTree = "<group>"; };
+		BA13C0735F6E68B97E3B654F56560800 /* DBZxcvbn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DBZxcvbn.m; path = Zxcvbn/DBZxcvbn.m; sourceTree = "<group>"; };
+		BBFE7ECC61F485692E25292BF13D5F98 /* Pods-PasswordPOCTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PasswordPOCTests-dummy.m"; sourceTree = "<group>"; };
+		BEA622839DDDB45BC958F49BE6AF64EA /* Pods-PasswordPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasswordPOC.debug.xcconfig"; sourceTree = "<group>"; };
+		BF1A6A18A00420408B096B8F6B63FE01 /* Pods-PasswordPOC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasswordPOC-Info.plist"; sourceTree = "<group>"; };
+		C5FD11A1C7BE131DF870DBC6DE36216F /* Pods_PasswordPOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PasswordPOC.framework; path = "Pods-PasswordPOC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC54476A2D0EF74B03053FF29803CD90 /* Pods-PasswordPOCTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PasswordPOCTests-umbrella.h"; sourceTree = "<group>"; };
+		D21B03099885589EDEBB180ABC35B317 /* DBScorer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DBScorer.m; path = Zxcvbn/DBScorer.m; sourceTree = "<group>"; };
+		D61ED9405863F2E6262D48814417144E /* Pods-PasswordPOCTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PasswordPOCTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D80ACCCBFEECFFC7E91765DAA924FED1 /* Pods-PasswordPOCUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasswordPOCUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA868CDB33A6A87A426441C18AA72E80 /* Pods_PasswordPOCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PasswordPOCUITests.framework; path = "Pods-PasswordPOCUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF5F72B4FDF0A5A5678E6500E1B7686 /* Pods-PasswordPOCUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasswordPOCUITests-Info.plist"; sourceTree = "<group>"; };
+		E078DD424B7BD196A53B51203AF23873 /* DBScorer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBScorer.h; path = Zxcvbn/DBScorer.h; sourceTree = "<group>"; };
+		E26772890029E7AFF8F5C1D2F528BF88 /* Pods-PasswordPOCTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasswordPOCTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64DFB2067B7012792DD559160C12DD9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FECB688B7A24518579F5DBA826CE5D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECF5DC6F8ABDD09E5BC68E37E10E639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C8173A47E124ED5AEE797DEE363A7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36E7AF28EF6AD32391C4611DFF2D35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE995F76B94F0CF1125872CBE123D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49F2D0A54B338438F03709C6E842A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC067C72C2407892A7B39D1E91CC769 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16E47AD8D51119C8BB826DDB5B4F910F /* Pods-PasswordPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				645EB02055A47F99EAB064557505BBE4 /* Pods-PasswordPOCTests.modulemap */,
+				D61ED9405863F2E6262D48814417144E /* Pods-PasswordPOCTests-acknowledgements.markdown */,
+				46FA379BC5753E0D4C227037E6FA8576 /* Pods-PasswordPOCTests-acknowledgements.plist */,
+				BBFE7ECC61F485692E25292BF13D5F98 /* Pods-PasswordPOCTests-dummy.m */,
+				E26772890029E7AFF8F5C1D2F528BF88 /* Pods-PasswordPOCTests-Info.plist */,
+				CC54476A2D0EF74B03053FF29803CD90 /* Pods-PasswordPOCTests-umbrella.h */,
+				7E8A0F483228EA0C68FBCEAAFC417ECA /* Pods-PasswordPOCTests.debug.xcconfig */,
+				42AED1211DBCEA1FA8E4F5BE499EA75A /* Pods-PasswordPOCTests.release.xcconfig */,
+			);
+			name = "Pods-PasswordPOCTests";
+			path = "Target Support Files/Pods-PasswordPOCTests";
+			sourceTree = "<group>";
+		};
+		26210169CB3C6592550BC74A26A2BAAC /* zxcvbn-ios */ = {
+			isa = PBXGroup;
+			children = (
+				0E992D13079808A37E19D6AFBB3F40B9 /* DBMatcher.h */,
+				31A1217702357456EBEF20BFC8A9B7C2 /* DBMatcher.m */,
+				7C97DC78381433C5602EF1F4AF3D1065 /* DBPasswordStrengthMeterView.h */,
+				2D2A0E318F22DD8BCE4FC6A47AAC4B56 /* DBPasswordStrengthMeterView.m */,
+				E078DD424B7BD196A53B51203AF23873 /* DBScorer.h */,
+				D21B03099885589EDEBB180ABC35B317 /* DBScorer.m */,
+				121E14070A46090E04FE596300F67506 /* DBZxcvbn.h */,
+				BA13C0735F6E68B97E3B654F56560800 /* DBZxcvbn.m */,
+				2B3079C053E58FE9147DE29C401C7A97 /* Resources */,
+				5681119FA83120EFEBBF50545BC977C6 /* Support Files */,
+			);
+			name = "zxcvbn-ios";
+			path = "zxcvbn-ios";
+			sourceTree = "<group>";
+		};
+		2B3079C053E58FE9147DE29C401C7A97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D7A1E25BB0D754A8E129F2F072D0A2B /* adjacency_graphs.json */,
+				9B5E05819464FE43D7A04A6FF08521EA /* frequency_lists.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		35EED7CEA13302EF2770B0218149ABED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FD11A1C7BE131DF870DBC6DE36216F /* Pods_PasswordPOC.framework */,
+				78392BB0D92DCF1CD512B414FE0B1485 /* Pods_PasswordPOCTests.framework */,
+				DA868CDB33A6A87A426441C18AA72E80 /* Pods_PasswordPOCUITests.framework */,
+				51AEE00C516D3E38DA99DE8039B1EEFE /* zxcvbn_ios.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5681119FA83120EFEBBF50545BC977C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58AA4930B8ACC198C83F9BBCCA5B9FF6 /* zxcvbn-ios.modulemap */,
+				283DC8EEA6E8E0857C758DFBE5876BE4 /* zxcvbn-ios.xcconfig */,
+				160D3DD178A8AC8898707E1CAAC5F9CC /* zxcvbn-ios-dummy.m */,
+				3DE72F0E9D1C35620359F90324E41D70 /* zxcvbn-ios-Info.plist */,
+				A0B542CA5FFBDD5B86BCB7760A76ECD5 /* zxcvbn-ios-prefix.pch */,
+				2A28731B70844D4A8C0D1AB8B39652A1 /* zxcvbn-ios-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/zxcvbn-ios";
+			sourceTree = "<group>";
+		};
+		57D01A55620887FBA7BBBAB4980453A1 /* Pods-PasswordPOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C4ABC81F68880E3AE1E38DBBF0FADAD /* Pods-PasswordPOCUITests.modulemap */,
+				0E8F8D16125B2202EFE74CC2115CE7E8 /* Pods-PasswordPOCUITests-acknowledgements.markdown */,
+				D80ACCCBFEECFFC7E91765DAA924FED1 /* Pods-PasswordPOCUITests-acknowledgements.plist */,
+				97478A7E00CBE8FADEDCA9E9DAAD0C9F /* Pods-PasswordPOCUITests-dummy.m */,
+				DCF5F72B4FDF0A5A5678E6500E1B7686 /* Pods-PasswordPOCUITests-Info.plist */,
+				8CC7D2C54E3C6B01D03ADF306991D823 /* Pods-PasswordPOCUITests-umbrella.h */,
+				3FC1FEE513D17E29CEFCB920DEF036FE /* Pods-PasswordPOCUITests.debug.xcconfig */,
+				8BA68D36214D6935A470773CB11F0C91 /* Pods-PasswordPOCUITests.release.xcconfig */,
+			);
+			name = "Pods-PasswordPOCUITests";
+			path = "Target Support Files/Pods-PasswordPOCUITests";
+			sourceTree = "<group>";
+		};
+		8F95DDE56850D587A5020C4323023A42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26210169CB3C6592550BC74A26A2BAAC /* zxcvbn-ios */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A8B33BE1549B3D26A0311AB5BD291B71 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1E99BDCB6C2F7FEF5A8A33E225382 /* Pods-PasswordPOC */,
+				16E47AD8D51119C8BB826DDB5B4F910F /* Pods-PasswordPOCTests */,
+				57D01A55620887FBA7BBBAB4980453A1 /* Pods-PasswordPOCUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CCF1E99BDCB6C2F7FEF5A8A33E225382 /* Pods-PasswordPOC */ = {
+			isa = PBXGroup;
+			children = (
+				01B5942020333C53A7F4A081FAE32FCB /* Pods-PasswordPOC.modulemap */,
+				A4566ED01ECF62885219EBA6AC223742 /* Pods-PasswordPOC-acknowledgements.markdown */,
+				559A1DE9497DDAA193288996EE61F20F /* Pods-PasswordPOC-acknowledgements.plist */,
+				AD2E66AA01A681C322161AB649270EA3 /* Pods-PasswordPOC-dummy.m */,
+				1C106FB1F7A34D6F78148EE240C7B0A6 /* Pods-PasswordPOC-frameworks.sh */,
+				BF1A6A18A00420408B096B8F6B63FE01 /* Pods-PasswordPOC-Info.plist */,
+				703D0BFA6F5800352DB1D4B791193173 /* Pods-PasswordPOC-umbrella.h */,
+				BEA622839DDDB45BC958F49BE6AF64EA /* Pods-PasswordPOC.debug.xcconfig */,
+				9FBAA77FB9111285E919CCAC5AE1ABE5 /* Pods-PasswordPOC.release.xcconfig */,
+			);
+			name = "Pods-PasswordPOC";
+			path = "Target Support Files/Pods-PasswordPOC";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8F95DDE56850D587A5020C4323023A42 /* Pods */,
+				35EED7CEA13302EF2770B0218149ABED /* Products */,
+				A8B33BE1549B3D26A0311AB5BD291B71 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EE5AEE09D0F81808A454101C292CC18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EC551EEFF365E24E635FFA8608E01E /* Pods-PasswordPOC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843632741A2E402E78A8901AAE14171B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09069B384529272D9C2E829618BF5FEE /* Pods-PasswordPOCUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0740046C5B0B2345528BA46A6EAEDBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3D6A66BF5C6B0870582AAC7AF3AAE7 /* Pods-PasswordPOCTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38316F4B77FA452185DBEBDA2C2C012 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540CC522201EBFEB8C3246E642802352 /* DBMatcher.h in Headers */,
+				D635CF2ADBF95B7CBDBB96CCA0139C67 /* DBPasswordStrengthMeterView.h in Headers */,
+				53C3799E1BD1F67E1EF6B9C7F79D4AC8 /* DBScorer.h in Headers */,
+				5C1DE06CA91CF87FF450A119711EECED /* DBZxcvbn.h in Headers */,
+				25CC8BC3D1285DD60707CDF1B23E424E /* zxcvbn-ios-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03EA6EA81CA39C5829DEBBAF32009ABE /* Pods-PasswordPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B856ED3C7D5A111B43A37AA410E8274A /* Build configuration list for PBXNativeTarget "Pods-PasswordPOC" */;
+			buildPhases = (
+				4EE5AEE09D0F81808A454101C292CC18 /* Headers */,
+				E6DD3BD2D4CBCCBD152A55FF66749041 /* Sources */,
+				F49F2D0A54B338438F03709C6E842A04 /* Frameworks */,
+				ED21309FA1E0C7D937DF8023FA664E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B3CC00BB39F6F402591CB26A9EADDF2 /* PBXTargetDependency */,
+			);
+			name = "Pods-PasswordPOC";
+			productName = "Pods-PasswordPOC";
+			productReference = C5FD11A1C7BE131DF870DBC6DE36216F /* Pods_PasswordPOC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D3DDC3978A7080C469344A9875D5F58 /* Pods-PasswordPOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF6C5392425884CE2078F13D9955118 /* Build configuration list for PBXNativeTarget "Pods-PasswordPOCUITests" */;
+			buildPhases = (
+				843632741A2E402E78A8901AAE14171B /* Headers */,
+				BAFEFF37494AED6E7AD456150639C6B0 /* Sources */,
+				E36E7AF28EF6AD32391C4611DFF2D35D /* Frameworks */,
+				58B08116994E2D8EA3DA0B7F37436EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB7B7AE039F89908A46FC7ADF92CDD72 /* PBXTargetDependency */,
+			);
+			name = "Pods-PasswordPOCUITests";
+			productName = "Pods-PasswordPOCUITests";
+			productReference = DA868CDB33A6A87A426441C18AA72E80 /* Pods_PasswordPOCUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		246BA36B48D7E79EEFFBC01EC45D63F6 /* zxcvbn-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B41F9797C535F6D22AD17B35B5E180 /* Build configuration list for PBXNativeTarget "zxcvbn-ios" */;
+			buildPhases = (
+				C38316F4B77FA452185DBEBDA2C2C012 /* Headers */,
+				99FD4080B57D6E1D97D1CF8F96EF2FF1 /* Sources */,
+				8ECF5DC6F8ABDD09E5BC68E37E10E639 /* Frameworks */,
+				01645751061A9756B688515131103CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zxcvbn-ios";
+			productName = "zxcvbn-ios";
+			productReference = 51AEE00C516D3E38DA99DE8039B1EEFE /* zxcvbn_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5257E87B437952E20C8BC9CC2468C55 /* Pods-PasswordPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D89478D8D1BFE19054B5DA9E3D23B0E /* Build configuration list for PBXNativeTarget "Pods-PasswordPOCTests" */;
+			buildPhases = (
+				C0740046C5B0B2345528BA46A6EAEDBA /* Headers */,
+				FB160AFFD1AB116E8FC732D081083194 /* Sources */,
+				64DFB2067B7012792DD559160C12DD9F /* Frameworks */,
+				573419AA9A981787E71DD15A3F3512BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEB3AE2A5A7976DD3374AC617094DE25 /* PBXTargetDependency */,
+			);
+			name = "Pods-PasswordPOCTests";
+			productName = "Pods-PasswordPOCTests";
+			productReference = 78392BB0D92DCF1CD512B414FE0B1485 /* Pods_PasswordPOCTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 35EED7CEA13302EF2770B0218149ABED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03EA6EA81CA39C5829DEBBAF32009ABE /* Pods-PasswordPOC */,
+				A5257E87B437952E20C8BC9CC2468C55 /* Pods-PasswordPOCTests */,
+				1D3DDC3978A7080C469344A9875D5F58 /* Pods-PasswordPOCUITests */,
+				246BA36B48D7E79EEFFBC01EC45D63F6 /* zxcvbn-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01645751061A9756B688515131103CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC71F915D3D578F74BDF2788D03D6BAC /* adjacency_graphs.json in Resources */,
+				ED84B3DCD32F483F7DC8EF3B3E8AD5F8 /* frequency_lists.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573419AA9A981787E71DD15A3F3512BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B08116994E2D8EA3DA0B7F37436EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED21309FA1E0C7D937DF8023FA664E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99FD4080B57D6E1D97D1CF8F96EF2FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3A3AB1DFF323C7A5CD156F8C9EAE59 /* DBMatcher.m in Sources */,
+				3789B2817088508AABCF906F062266B5 /* DBPasswordStrengthMeterView.m in Sources */,
+				AB99E6E61DE87E7141B74FDED8D49321 /* DBScorer.m in Sources */,
+				C7DB25DA6A1F9C6E64BF5DE42C9D28C5 /* DBZxcvbn.m in Sources */,
+				ABCEC5D88E427F97D4E723AFCB57B993 /* zxcvbn-ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFEFF37494AED6E7AD456150639C6B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE65ADED2D034352461DA3B2728A1E7 /* Pods-PasswordPOCUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DD3BD2D4CBCCBD152A55FF66749041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3525281E14BB67165FE7774B00BEA3D3 /* Pods-PasswordPOC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB160AFFD1AB116E8FC732D081083194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7739C3256738630B469B7038F8593D33 /* Pods-PasswordPOCTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B3CC00BB39F6F402591CB26A9EADDF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "zxcvbn-ios";
+			target = 246BA36B48D7E79EEFFBC01EC45D63F6 /* zxcvbn-ios */;
+			targetProxy = 06FAF4568CC6693E010B4427DCACFC7B /* PBXContainerItemProxy */;
+		};
+		AEB3AE2A5A7976DD3374AC617094DE25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PasswordPOC";
+			target = 03EA6EA81CA39C5829DEBBAF32009ABE /* Pods-PasswordPOC */;
+			targetProxy = CAEAC846562D085DA9B36177E1EF7227 /* PBXContainerItemProxy */;
+		};
+		DB7B7AE039F89908A46FC7ADF92CDD72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PasswordPOC";
+			target = 03EA6EA81CA39C5829DEBBAF32009ABE /* Pods-PasswordPOC */;
+			targetProxy = C3715D21775BD077307192CE3B914AFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156BF8C7A2662AF48827994D95FD2435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8A0F483228EA0C68FBCEAAFC417ECA /* Pods-PasswordPOCTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasswordPOCTests/Pods-PasswordPOCTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasswordPOCTests/Pods-PasswordPOCTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D579972F6B15DCEDBAB356FF05BB319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBAA77FB9111285E919CCAC5AE1ABE5 /* Pods-PasswordPOC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasswordPOC/Pods-PasswordPOC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasswordPOC/Pods-PasswordPOC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DED2FCE324D3D86255C1DD3B82A98B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA68D36214D6935A470773CB11F0C91 /* Pods-PasswordPOCUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasswordPOCUITests/Pods-PasswordPOCUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasswordPOCUITests/Pods-PasswordPOCUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40EBCEDC5D5021E2B1365FFCB1940C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283DC8EEA6E8E0857C758DFBE5876BE4 /* zxcvbn-ios.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/zxcvbn-ios/zxcvbn-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/zxcvbn-ios/zxcvbn-ios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/zxcvbn-ios/zxcvbn-ios.modulemap";
+				PRODUCT_MODULE_NAME = zxcvbn_ios;
+				PRODUCT_NAME = zxcvbn_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		779359D806ACCF5568EF06C9388A67F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA622839DDDB45BC958F49BE6AF64EA /* Pods-PasswordPOC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasswordPOC/Pods-PasswordPOC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasswordPOC/Pods-PasswordPOC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8124BEFFCCF536459D17B75490E6C714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC1FEE513D17E29CEFCB920DEF036FE /* Pods-PasswordPOCUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasswordPOCUITests/Pods-PasswordPOCUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasswordPOCUITests/Pods-PasswordPOCUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AB32AA505868EE9188BA7557D50CF6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42AED1211DBCEA1FA8E4F5BE499EA75A /* Pods-PasswordPOCTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasswordPOCTests/Pods-PasswordPOCTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasswordPOCTests/Pods-PasswordPOCTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E2C5339C7BF471575B237A4B1ACCF87B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283DC8EEA6E8E0857C758DFBE5876BE4 /* zxcvbn-ios.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/zxcvbn-ios/zxcvbn-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/zxcvbn-ios/zxcvbn-ios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/zxcvbn-ios/zxcvbn-ios.modulemap";
+				PRODUCT_MODULE_NAME = zxcvbn_ios;
+				PRODUCT_NAME = zxcvbn_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CF6C5392425884CE2078F13D9955118 /* Build configuration list for PBXNativeTarget "Pods-PasswordPOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8124BEFFCCF536459D17B75490E6C714 /* Debug */,
+				2DED2FCE324D3D86255C1DD3B82A98B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B41F9797C535F6D22AD17B35B5E180 /* Build configuration list for PBXNativeTarget "zxcvbn-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C5339C7BF471575B237A4B1ACCF87B /* Debug */,
+				40EBCEDC5D5021E2B1365FFCB1940C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D89478D8D1BFE19054B5DA9E3D23B0E /* Build configuration list for PBXNativeTarget "Pods-PasswordPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156BF8C7A2662AF48827994D95FD2435 /* Debug */,
+				AB32AA505868EE9188BA7557D50CF6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B856ED3C7D5A111B43A37AA410E8274A /* Build configuration list for PBXNativeTarget "Pods-PasswordPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779359D806ACCF5568EF06C9388A67F5 /* Debug */,
+				2D579972F6B15DCEDBAB356FF05BB319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30B786C952894E801B59600A /* Pods_PasswordPOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AFCD98B3C4ED40C016BFD6 /* Pods_PasswordPOC.framework */; };
+		438165672283539C009BBE1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438165662283539C009BBE1A /* AppDelegate.swift */; };
+		438165692283539C009BBE1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438165682283539C009BBE1A /* ViewController.swift */; };
+		4381656C2283539C009BBE1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4381656A2283539C009BBE1A /* Main.storyboard */; };
+		4381656E228353A0009BBE1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4381656D228353A0009BBE1A /* Assets.xcassets */; };
+		43816571228353A0009BBE1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4381656F228353A0009BBE1A /* LaunchScreen.storyboard */; };
+		4381657C228353A0009BBE1A /* PasswordPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4381657B228353A0009BBE1A /* PasswordPOCTests.swift */; };
+		43816587228353A0009BBE1A /* PasswordPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43816586228353A0009BBE1A /* PasswordPOCUITests.swift */; };
+		8409D09C604E514A9AA0D955 /* Pods_PasswordPOCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF534B8200F6AD1E8D8A9E25 /* Pods_PasswordPOCUITests.framework */; };
+		BCBE15871A972719263689CC /* Pods_PasswordPOCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0CF949C37BB7EA9986ED04 /* Pods_PasswordPOCTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43816578228353A0009BBE1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4381655B2283539C009BBE1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438165622283539C009BBE1A;
+			remoteInfo = PasswordPOC;
+		};
+		43816583228353A0009BBE1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4381655B2283539C009BBE1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438165622283539C009BBE1A;
+			remoteInfo = PasswordPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B0CF949C37BB7EA9986ED04 /* Pods_PasswordPOCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordPOCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C1A47AF018AF899EEC2BC1 /* Pods-PasswordPOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordPOCTests.debug.xcconfig"; path = "Target Support Files/Pods-PasswordPOCTests/Pods-PasswordPOCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		438165632283539C009BBE1A /* PasswordPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		438165662283539C009BBE1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		438165682283539C009BBE1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4381656B2283539C009BBE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4381656D228353A0009BBE1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43816570228353A0009BBE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43816572228353A0009BBE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43816577228353A0009BBE1A /* PasswordPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4381657B228353A0009BBE1A /* PasswordPOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPOCTests.swift; sourceTree = "<group>"; };
+		4381657D228353A0009BBE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43816582228353A0009BBE1A /* PasswordPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43816586228353A0009BBE1A /* PasswordPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPOCUITests.swift; sourceTree = "<group>"; };
+		43816588228353A0009BBE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		514AF32867046D865B6B4098 /* Pods-PasswordPOCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordPOCUITests.release.xcconfig"; path = "Target Support Files/Pods-PasswordPOCUITests/Pods-PasswordPOCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51D14B79710656578DBE27C3 /* Pods-PasswordPOCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordPOCUITests.debug.xcconfig"; path = "Target Support Files/Pods-PasswordPOCUITests/Pods-PasswordPOCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		85A9953521F1B18FDD627BE1 /* Pods-PasswordPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordPOC.release.xcconfig"; path = "Target Support Files/Pods-PasswordPOC/Pods-PasswordPOC.release.xcconfig"; sourceTree = "<group>"; };
+		902478BCCE96F6BAD3519204 /* Pods-PasswordPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordPOC.debug.xcconfig"; path = "Target Support Files/Pods-PasswordPOC/Pods-PasswordPOC.debug.xcconfig"; sourceTree = "<group>"; };
+		A4630D43647872EAB77DF436 /* Pods-PasswordPOCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordPOCTests.release.xcconfig"; path = "Target Support Files/Pods-PasswordPOCTests/Pods-PasswordPOCTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7AFCD98B3C4ED40C016BFD6 /* Pods_PasswordPOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordPOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF534B8200F6AD1E8D8A9E25 /* Pods_PasswordPOCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordPOCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438165602283539C009BBE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B786C952894E801B59600A /* Pods_PasswordPOC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43816574228353A0009BBE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBE15871A972719263689CC /* Pods_PasswordPOCTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4381657F228353A0009BBE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8409D09C604E514A9AA0D955 /* Pods_PasswordPOCUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F66D8068FCA141D49E06E63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7AFCD98B3C4ED40C016BFD6 /* Pods_PasswordPOC.framework */,
+				1B0CF949C37BB7EA9986ED04 /* Pods_PasswordPOCTests.framework */,
+				EF534B8200F6AD1E8D8A9E25 /* Pods_PasswordPOCUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4381655A2283539C009BBE1A = {
+			isa = PBXGroup;
+			children = (
+				438165652283539C009BBE1A /* PasswordPOC */,
+				4381657A228353A0009BBE1A /* PasswordPOCTests */,
+				43816585228353A0009BBE1A /* PasswordPOCUITests */,
+				438165642283539C009BBE1A /* Products */,
+				C323F9B1A9ACD9889337C33A /* Pods */,
+				0F66D8068FCA141D49E06E63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		438165642283539C009BBE1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				438165632283539C009BBE1A /* PasswordPOC.app */,
+				43816577228353A0009BBE1A /* PasswordPOCTests.xctest */,
+				43816582228353A0009BBE1A /* PasswordPOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		438165652283539C009BBE1A /* PasswordPOC */ = {
+			isa = PBXGroup;
+			children = (
+				438165662283539C009BBE1A /* AppDelegate.swift */,
+				438165682283539C009BBE1A /* ViewController.swift */,
+				4381656A2283539C009BBE1A /* Main.storyboard */,
+				4381656D228353A0009BBE1A /* Assets.xcassets */,
+				4381656F228353A0009BBE1A /* LaunchScreen.storyboard */,
+				43816572228353A0009BBE1A /* Info.plist */,
+			);
+			path = PasswordPOC;
+			sourceTree = "<group>";
+		};
+		4381657A228353A0009BBE1A /* PasswordPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				4381657B228353A0009BBE1A /* PasswordPOCTests.swift */,
+				4381657D228353A0009BBE1A /* Info.plist */,
+			);
+			path = PasswordPOCTests;
+			sourceTree = "<group>";
+		};
+		43816585228353A0009BBE1A /* PasswordPOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43816586228353A0009BBE1A /* PasswordPOCUITests.swift */,
+				43816588228353A0009BBE1A /* Info.plist */,
+			);
+			path = PasswordPOCUITests;
+			sourceTree = "<group>";
+		};
+		C323F9B1A9ACD9889337C33A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				902478BCCE96F6BAD3519204 /* Pods-PasswordPOC.debug.xcconfig */,
+				85A9953521F1B18FDD627BE1 /* Pods-PasswordPOC.release.xcconfig */,
+				41C1A47AF018AF899EEC2BC1 /* Pods-PasswordPOCTests.debug.xcconfig */,
+				A4630D43647872EAB77DF436 /* Pods-PasswordPOCTests.release.xcconfig */,
+				51D14B79710656578DBE27C3 /* Pods-PasswordPOCUITests.debug.xcconfig */,
+				514AF32867046D865B6B4098 /* Pods-PasswordPOCUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		438165622283539C009BBE1A /* PasswordPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4381658B228353A0009BBE1A /* Build configuration list for PBXNativeTarget "PasswordPOC" */;
+			buildPhases = (
+				D65A632D85354EF3F87F3A06 /* [CP] Check Pods Manifest.lock */,
+				4381655F2283539C009BBE1A /* Sources */,
+				438165602283539C009BBE1A /* Frameworks */,
+				438165612283539C009BBE1A /* Resources */,
+				B0A62927B570442464836B30 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordPOC;
+			productName = PasswordPOC;
+			productReference = 438165632283539C009BBE1A /* PasswordPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43816576228353A0009BBE1A /* PasswordPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4381658E228353A0009BBE1A /* Build configuration list for PBXNativeTarget "PasswordPOCTests" */;
+			buildPhases = (
+				761B652CE8E35928A84DB690 /* [CP] Check Pods Manifest.lock */,
+				43816573228353A0009BBE1A /* Sources */,
+				43816574228353A0009BBE1A /* Frameworks */,
+				43816575228353A0009BBE1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43816579228353A0009BBE1A /* PBXTargetDependency */,
+			);
+			name = PasswordPOCTests;
+			productName = PasswordPOCTests;
+			productReference = 43816577228353A0009BBE1A /* PasswordPOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43816581228353A0009BBE1A /* PasswordPOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43816591228353A0009BBE1A /* Build configuration list for PBXNativeTarget "PasswordPOCUITests" */;
+			buildPhases = (
+				974F20600988BB6B8E7C2C8B /* [CP] Check Pods Manifest.lock */,
+				4381657E228353A0009BBE1A /* Sources */,
+				4381657F228353A0009BBE1A /* Frameworks */,
+				43816580228353A0009BBE1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43816584228353A0009BBE1A /* PBXTargetDependency */,
+			);
+			name = PasswordPOCUITests;
+			productName = PasswordPOCUITests;
+			productReference = 43816582228353A0009BBE1A /* PasswordPOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4381655B2283539C009BBE1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Natalia Sibaja";
+				TargetAttributes = {
+					438165622283539C009BBE1A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					43816576228353A0009BBE1A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 438165622283539C009BBE1A;
+					};
+					43816581228353A0009BBE1A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 438165622283539C009BBE1A;
+					};
+				};
+			};
+			buildConfigurationList = 4381655E2283539C009BBE1A /* Build configuration list for PBXProject "PasswordPOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4381655A2283539C009BBE1A;
+			productRefGroup = 438165642283539C009BBE1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				438165622283539C009BBE1A /* PasswordPOC */,
+				43816576228353A0009BBE1A /* PasswordPOCTests */,
+				43816581228353A0009BBE1A /* PasswordPOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		438165612283539C009BBE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43816571228353A0009BBE1A /* LaunchScreen.storyboard in Resources */,
+				4381656E228353A0009BBE1A /* Assets.xcassets in Resources */,
+				4381656C2283539C009BBE1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43816575228353A0009BBE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43816580228353A0009BBE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		761B652CE8E35928A84DB690 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordPOCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		974F20600988BB6B8E7C2C8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordPOCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A62927B570442464836B30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PasswordPOC/Pods-PasswordPOC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/zxcvbn-ios/zxcvbn_ios.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/zxcvbn_ios.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PasswordPOC/Pods-PasswordPOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D65A632D85354EF3F87F3A06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordPOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4381655F2283539C009BBE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438165692283539C009BBE1A /* ViewController.swift in Sources */,
+				438165672283539C009BBE1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43816573228353A0009BBE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4381657C228353A0009BBE1A /* PasswordPOCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4381657E228353A0009BBE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43816587228353A0009BBE1A /* PasswordPOCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43816579228353A0009BBE1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438165622283539C009BBE1A /* PasswordPOC */;
+			targetProxy = 43816578228353A0009BBE1A /* PBXContainerItemProxy */;
+		};
+		43816584228353A0009BBE1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438165622283539C009BBE1A /* PasswordPOC */;
+			targetProxy = 43816583228353A0009BBE1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4381656A2283539C009BBE1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4381656B2283539C009BBE1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4381656F228353A0009BBE1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43816570228353A0009BBE1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43816589228353A0009BBE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4381658A228353A0009BBE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4381658C228353A0009BBE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902478BCCE96F6BAD3519204 /* Pods-PasswordPOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PasswordPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redstoneapps.PasswordPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4381658D228353A0009BBE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A9953521F1B18FDD627BE1 /* Pods-PasswordPOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PasswordPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redstoneapps.PasswordPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4381658F228353A0009BBE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C1A47AF018AF899EEC2BC1 /* Pods-PasswordPOCTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PasswordPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redstoneapps.PasswordPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordPOC.app/PasswordPOC";
+			};
+			name = Debug;
+		};
+		43816590228353A0009BBE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4630D43647872EAB77DF436 /* Pods-PasswordPOCTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PasswordPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redstoneapps.PasswordPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordPOC.app/PasswordPOC";
+			};
+			name = Release;
+		};
+		43816592228353A0009BBE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D14B79710656578DBE27C3 /* Pods-PasswordPOCUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A86R2YZPHC;
+				INFOPLIST_FILE = PasswordPOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redstoneapps.PasswordPOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasswordPOC;
+			};
+			name = Debug;
+		};
+		43816593228353A0009BBE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 514AF32867046D865B6B4098 /* Pods-PasswordPOCUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A86R2YZPHC;
+				INFOPLIST_FILE = PasswordPOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redstoneapps.PasswordPOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasswordPOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4381655E2283539C009BBE1A /* Build configuration list for PBXProject "PasswordPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43816589228353A0009BBE1A /* Debug */,
+				4381658A228353A0009BBE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4381658B228353A0009BBE1A /* Build configuration list for PBXNativeTarget "PasswordPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4381658C228353A0009BBE1A /* Debug */,
+				4381658D228353A0009BBE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4381658E228353A0009BBE1A /* Build configuration list for PBXNativeTarget "PasswordPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4381658F228353A0009BBE1A /* Debug */,
+				43816590228353A0009BBE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43816591228353A0009BBE1A /* Build configuration list for PBXNativeTarget "PasswordPOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43816592228353A0009BBE1A /* Debug */,
+				43816593228353A0009BBE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4381655B2283539C009BBE1A /* Project object */;
+}
